@@ -1,5 +1,16 @@
 # Captcha
+
 Android滑块拼图验证码控件
+
+/**
+ * 这个项目的大致思路
+ *
+ * 1.构件一个缺口的路径path
+ *
+ * 2.通过路径在原图上显示2个拼图，  该项目用1个View  绘制了2个拼图，一个作为缺口，一个作为可移动的拼图
+ *
+ * 3.通过seekbar或者onTouch 获取控件的位置和缺口位置进行比对。达成拼图验证的效果
+ */
 
 <img src="https://github.com/luozhanming/Captcha/blob/master/GIF_20180327_113233.gif" width="180" height="320" />
 
